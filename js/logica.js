@@ -34,7 +34,7 @@ return Object.values(agrupado).sort((a,b)=>{//cambiar o castear el objeto por el
     if(b.numPagos!=a.numPagos){
         return b.numPagos-a.numPagos;
     }else{
-        return a.nombre.localCompare(b.nombre);
+        return a.nombre.localeCompare(b.nombre);
     }
 });
 }
