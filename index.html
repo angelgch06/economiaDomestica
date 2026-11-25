@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,20 +8,30 @@
     <title>Economía doméstica</title>
 
 </head>
-<body>
-    <h1>Economía doméstica</h1>
-    <section id="conceptos" class="grid">
 
-    </section>
-    <section id="resumen">
-        <h2>Resumen de gastos</h2>
-        <div id="listaResumen">
-            
-        </div>
-    </section>
-    <button id="btnFinalizar">Finalizar</button>
+<body>
+    <div id="app">
+        <main id="principal">
+            <h1>Economía doméstica</h1>
+            <p id="infoTramite"></p>
+            <section id="conceptos" class="grid"></section>
+            <section id="resumen">
+                <h2>Resumen de gastos</h2>
+                <div id="listaResumen">
+
+                </div>
+            </section>
+            <button id="btnFinalizar">Finalizar</button>
+        </main>
+
+        <aside id="panelLateral">
+            <h2>Historial de pagos</h2>
+            <div id="historialDePagos"></div>
+        </aside>
+    </div>
+    
     <script src="js/datos.js"></script>
-     <script src="js/logica.js"></script>
-      <script src="js/main.js"></script>
+    <script src="js/logica.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
