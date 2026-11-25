@@ -1,0 +1,242 @@
+{
+  "conceptos": [
+    {
+      "id": "1",
+      "nombre": "luz",
+      "precio": 40,
+      "imagen": "img/luz.png",
+      "imprescindible": true,
+      "categoria": "s_bas"
+    },
+    {
+      "id": "2",
+      "nombre": "basura",
+      "precio": 20,
+      "imagen": "img/basura.png",
+      "imprescindible": true,
+      "categoria": "s_bas"
+    },
+    {
+      "id": "3",
+      "nombre": "agua",
+      "precio": 10,
+      "imagen": "img/agua.png",
+      "imprescindible": true,
+      "categoria": "s_bas"
+    },
+    {
+      "id": "4",
+      "nombre": "gas",
+      "precio": 15,
+      "imagen": "img/gas.png",
+      "imprescindible": true,
+      "categoria": "s_bas"
+    },
+    {
+      "id": "5",
+      "nombre": "comunidad",
+      "precio": 35,
+      "imagen": "img/comunidad.png",
+      "imprescindible": true,
+      "categoria": "s_bas"
+    },
+    {
+      "id": "6",
+      "nombre": "internet",
+      "precio": 25,
+      "imagen": "img/internet.png",
+      "imprescindible": true,
+      "categoria": "s_bas"
+    },
+    {
+      "id": "7",
+      "nombre": "seguro",
+      "precio": 20.5,
+      "imagen": "img/seguro.png",
+      "imprescindible": false,
+      "categoria": "s_bas"
+    },
+    {
+      "id": "8",
+      "nombre": "limpieza",
+      "precio": 30.5,
+      "imagen": "img/limpieza.png",
+      "imprescindible": false,
+      "categoria": "s_bas"
+    },
+    {
+      "id": "9",
+      "nombre": "mantenimiento",
+      "precio": 10.5,
+      "imagen": "img/mantenimiento.png",
+      "imprescindible": false,
+      "categoria": "s_bas"
+    },
+    {
+      "id": "10",
+      "nombre": "telefono",
+      "precio": 5.5,
+      "imagen": "img/telefono.png",
+      "imprescindible": false,
+      "categoria": "s_bas"
+    }
+  ],
+  "registros": [
+    {
+      "fecha": "null/null",
+      "pagos": [
+        {
+          "idConcepto": "1",
+          "importeTotal": 16.98,
+          "numPagos": 2
+        },
+        {
+          "idConcepto": "3",
+          "importeTotal": 5.99,
+          "numPagos": 1
+        },
+        {
+          "idConcepto": "2",
+          "importeTotal": 10.5,
+          "numPagos": 1
+        }
+      ],
+      "id": "LvKFG59gdc0"
+    },
+    {
+      "fecha": "null/null",
+      "pagos": [
+        {
+          "idConcepto": "1",
+          "importeTotal": 10.99,
+          "numPagos": 1
+        }
+      ],
+      "id": "W74eEW2HKfM"
+    },
+    {
+      "fecha": "null/null",
+      "pagos": [
+        {
+          "idConcepto": "2",
+          "importeTotal": 2.99,
+          "numPagos": 1
+        },
+        {
+          "idConcepto": "1",
+          "importeTotal": 10.99,
+          "numPagos": 1
+        }
+      ],
+      "id": "wgSGrotsOpY"
+    },
+    {
+      "fecha": "null/null",
+      "pagos": [
+        {
+          "idConcepto": "2",
+          "importeTotal": 2.99,
+          "numPagos": 1
+        },
+        {
+          "idConcepto": "1",
+          "importeTotal": 10.99,
+          "numPagos": 1
+        }
+      ],
+      "id": "MAUuIZAABcE"
+    },
+    {
+      "fecha": "null/null",
+      "pagos": [
+        {
+          "idConcepto": "2",
+          "importeTotal": 10.99,
+          "numPagos": 1
+        },
+        {
+          "idConcepto": "1",
+          "importeTotal": 5.99,
+          "numPagos": 1
+        }
+      ],
+      "id": "WVsGena6SPA"
+    },
+    {
+      "fecha": "null/null",
+      "pagos": [
+        {
+          "idConcepto": "2",
+          "importeTotal": 3.99,
+          "numPagos": 1
+        },
+        {
+          "idConcepto": "1",
+          "importeTotal": 2.99,
+          "numPagos": 1
+        }
+      ],
+      "id": "8DlOJBtjX24"
+    },
+    {
+      "fecha": "null/null",
+      "pagos": [
+        {
+          "idConcepto": "2",
+          "importeTotal": 3.99,
+          "numPagos": 1
+        },
+        {
+          "idConcepto": "1",
+          "importeTotal": 2.99,
+          "numPagos": 1
+        }
+      ],
+      "id": "38iBvcYlmWY"
+    },
+    {
+      "fecha": "null/null",
+      "pagos": [
+        {
+          "idConcepto": "1",
+          "importeTotal": 3.99,
+          "numPagos": 1
+        }
+      ],
+      "id": "4kjJbYP8Ohs"
+    },
+    {
+      "fecha": "null/null",
+      "pagos": [
+        {
+          "idConcepto": "2",
+          "importeTotal": 3.99,
+          "numPagos": 1
+        },
+        {
+          "idConcepto": "1",
+          "importeTotal": 5.99,
+          "numPagos": 1
+        }
+      ],
+      "id": "aSShgLiniGI"
+    },
+    {
+      "fecha": "null/null",
+      "pagos": [
+        {
+          "idConcepto": "2",
+          "importeTotal": 2.99,
+          "numPagos": 1
+        },
+        {
+          "idConcepto": "1",
+          "importeTotal": 4.99,
+          "numPagos": 1
+        }
+      ],
+      "id": "5TcjzZAWt8Q"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
